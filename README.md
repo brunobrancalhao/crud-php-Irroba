@@ -16,3 +16,9 @@ sudo npm install -g json-server
 
 # Executando nosso arquivo para disponibilizar API
 json-server --watch server.json
+
+# Gerando o tunel da aplicação
+Baixar o ngrok e colar o executavel na raiz da aplicação
+
+# Comando para gerar tunel
+./ngrok http 3000
