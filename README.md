@@ -8,3 +8,11 @@ sudo apt-get install -y nodejs
 
 # Download Ngrok
 https://ngrok.com/download
+
+# Iniciando o Mock da API
+
+# Instalando lib JSON-Server
+sudo npm install -g json-server
+
+# Executando nosso arquivo para disponibilizar API
+json-server --watch server.json
