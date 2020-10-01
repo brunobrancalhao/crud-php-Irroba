@@ -1,0 +1,10 @@
+version: '2'
+services:
+  website:
+    container_name: php-consumer-irroba
+    build:
+      context: ./
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 8501:80
